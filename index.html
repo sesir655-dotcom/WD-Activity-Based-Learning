@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sasank | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">SASANK<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">COMPUTER SCIENCE • CSM</p>
+        <h1>Hello, I'm <span>Sasank Venkat.</span></h1>
+        <h2>A student exploring AI & web development.</h2>
+        <p>I enjoy learning programming, building useful digital experiences, and exploring how technology can solve real-world problems.</p>
+        <div class="actions"><a class="btn" href="#projects">Explore my work</a><a class="btn btn-outline" href="#contact">Contact me</a></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card"><span class="dots">● ● ●</span><pre><code>&lt;developer&gt;
+  learning = True
+  curiosity = "AI"
+  build("ideas")
+&lt;/developer&gt;</code></pre><div class="spark">✦</div></div>
+      </div>
+    </section>
+    <section class="section" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p><h2>About Me</h2>
+      <div class="about-grid"><div class="about-mark">SV</div><div><p>I am a first-year B.Tech student in Computer Science and Engineering (CSM). I am building my foundation in programming and web technologies while exploring artificial intelligence.</p><p>My goal is to turn ideas into simple, helpful projects and keep improving through practice.</p><div class="facts"><span><b>Branch</b> CSM</span><span><b>Section</b> 2</span><span><b>Interest</b> AI & Coding</span></div></div></div>
+    </section>
+    <section class="section tinted" id="skills">
+      <p class="eyebrow">WHAT I'M LEARNING</p><h2>Technical Skills</h2>
+      <div class="skill-grid">
+        <article class="skill"><h3>HTML</h3><p>Creating clear webpage structure.</p><div class="meter"><span style="width:75%"></span></div></article>
+        <article class="skill"><h3>CSS</h3><p>Styling layouts and responsive designs.</p><div class="meter"><span style="width:65%"></span></div></article>
+        <article class="skill"><h3>Python</h3><p>Practising programming fundamentals.</p><div class="meter"><span style="width:55%"></span></div></article>
+        <article class="skill"><h3>JavaScript</h3><p>Learning interactivity for websites.</p><div class="meter"><span style="width:40%"></span></div></article>
+      </div><p class="note">Skill bars are illustrative and represent learning progress, not formal test results.</p>
+    </section>
+    <section class="section" id="projects">
+      <p class="eyebrow">THINGS I'M BUILDING</p><h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-icon">⌘</div><h3>Portfolio Website</h3><p>A responsive personal webpage to present my skills and learning journey.</p><span class="tag">HTML · CSS · JS</span></article>
+        <article class="project-card"><div class="project-icon">🌱</div><h3>AquaSave Concept</h3><p>A concept website sharing practical water-saving tips and smart water management ideas.</p><span class="tag">Web Design</span></article>
+        <article class="project-card"><div class="project-icon">🤖</div><h3>AI Learning Notes</h3><p>A simple collection of notes about AI, prompts, and responsible technology use.</p><span class="tag">AI · Learning</span></article>
+      </div>
+    </section>
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p><h2>Contact Me</h2><p>Have an idea or suggestion? Send a message using this demo form.</p>
+      <form id="contactForm" class="contact-form"><label>Your name<input id="senderName" required placeholder="Enter your name"></label><label>Your email<input type="email" id="senderEmail" required placeholder="name@example.com"></label><label>Message<textarea id="senderMessage" required rows="4" placeholder="Write your message"></textarea></label><button class="btn" type="submit">Send message ↗</button><p id="formMessage" role="status"></p></form>
+      <p class="small">Student: Lingam Sasank Venkat · Roll No. 26000938 · CSM · Section 2</p>
+    </section>
+  </main>
+  <footer>© 2026 Sasank Venkat · Built as a Web Development ABL project.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
